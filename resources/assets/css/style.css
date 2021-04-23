@@ -320,14 +320,14 @@ textarea {
 
 /* Second image (service) */
 .bgimg-2 {
-  background-image:  url('/assets/img/cleaning4.jpg');
+  background-image:  url('../img/cleaning4.jpg');
   height: 50vh;
   /* filter: saturate(8) */
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url('/assets/img/optimised-usana-blue-logo.svg');
+  background-image: url('../img/optimised-usana-blue-logo.svg');
   height: 25vh;
     filter: saturate(2)
 }

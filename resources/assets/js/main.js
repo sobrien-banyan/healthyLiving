@@ -139,8 +139,8 @@ var modal = document.getElementById(`hvacModal${number}`);
 // random picture selector for top img 
 function picSelector() {
     //  random pic selector
-    const mainPics = ["url('../assets/img/nurse-2.jpg')", "url('../assets/img/usana-products.jpg')", "url('../assets/img/usana-products.jpg')","url('../assets/img/nurse-2.jpg')"];
-  const mainPics2 =   ["url('../assets/img/blueberries.jpg')", "url('../assets/img/generic-personal-care-5-small.jpg')", "url('../assets/img/blueberries.jpg')","url('../assets/img/generic-personal-care-5-small.jpg')",];
+    const mainPics = ["url('./resources/assets/img/nurse-2.jpg')", "url('./resources/assets/img/usana-products.jpg')", "url('./resources/assets/img/usana-products.jpg')","url('./resources/assets/img/nurse-2.jpg')"];
+  const mainPics2 =   ["url('./resources/assets/img/blueberries.jpg')", "url('./resources/assets/img/generic-personal-care-5-small.jpg')", "url('./resources/assets/img/blueberries.jpg')","url('./resources/assets/img/generic-personal-care-5-small.jpg')",];
   $('.bgimg-1-1').css({'background-image': mainPics[Math.floor(Math.random(mainPics.length) * 4)]})
   $('.bgimg-1-2').css({'background-image': mainPics2[Math.floor(Math.random(mainPics.length) * 4)]})
 

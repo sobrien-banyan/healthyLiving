@@ -1,40 +1,3 @@
-
-// Script to open and close sidebar
-function w3_open() {
-var sideNav =  document.getElementById("mySidebar");
-var overlay =  document.getElementById("myOverlay");
-
-
-if(sideNav.style.display == "block"){
-  sideNav.style.display = "none";
-  overlay.style.display = "none";
-  $('.menu-btn').removeClass('burger');
-$('.hamburger').removeClass('backTrans');
-$('.top-bur-bar').removeClass('top-burger-bar');
-$('.btm-bur-bar').removeClass('bottom-burger-bar');
-return false
-}
-  
-    sideNav.style.display = "block";
-    overlay.style.display = "block";
-    $('.menu-btn').addClass('burger');
-       $('.hamburger').addClass('backTrans');
-       $('.top-bur-bar').addClass('top-burger-bar');
-       $('.btm-bur-bar').addClass('bottom-burger-bar');
-}
- 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
- 
-  $('.menu-btn').removeClass('burger');
-  $('.hamburger').removeClass('backTrans');
-  $('.top-bur-bar').removeClass('top-burger-bar');
-  $('.btm-bur-bar').removeClass('bottom-burger-bar');
-}
-
-
-
 // ***************** change theme ***********************
 function changeTheme(number) {
 var targetDiv = $(".targeted-theme");
@@ -153,7 +116,7 @@ picSelector();
 //************ */ owl script for images*******************
 //  :: 3.0 Sliders Active Code
  if ($.fn.owlCarousel) {
-    var welcomeSlide = $('.hero-slideshow');
+    var welcomeSlide = $('.owl-carousel');
     
     welcomeSlide.owlCarousel({
         items: 1,
